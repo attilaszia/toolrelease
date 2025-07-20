@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Asciinema Cast</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Asciinema Player CSS and JS -->
+  <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/asciinema-player@3.0.1/dist/bundle/asciinema-player.css">
+  <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.0.1/dist/bundle/asciinema-player.js"></script>
+
+  <style>
+    body {
+      background: #000;
+      color: #ccc;
+      font-family: sans-serif;
+      padding: 2em;
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Embedded Cast -->
+  <asciinema-player src="tool.cast"
+                    autoplay
+                    loop
+                    theme="asciinema"
+                    preload
+                    cols="100"
+                    rows="30">
+  </asciinema-player>
+
+</body>
+</html>
+
